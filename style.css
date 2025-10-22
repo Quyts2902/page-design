@@ -113,7 +113,7 @@ img{
 .section-1-container-1{
     width: 100%;
     position: relative;
-    padding: 96px 144px;
+    padding: 96px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -281,7 +281,6 @@ img{
 .s1-c3-body{
     display: flex;
     flex-direction: row;
-    padding: 0 144px;
     align-items: center;
     justify-content: space-between;
     gap: 127.5px;
@@ -376,7 +375,6 @@ img{
 }
 .section-2-container-1{
     width: 100%;
-    padding: 0px 144px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -587,7 +585,7 @@ img{
 
 .section-2-container-4{
     background-color: #F5F7FA;
-    padding: 34px 0px 34px 0px;
+    padding: 34px 0px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -727,7 +725,6 @@ img{
     color: #717171;
 }  
 .s2-c5-body{
-    padding: 0px 144px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -765,7 +762,6 @@ img{
     text-align: center;
     color: #4D4D4D;
     width: 285px;
-    padding: 0px 2px;
 }
 .s2-b-label{
     width: 285px;
@@ -850,10 +846,9 @@ footer{
     height: 328px;
     background-color: #263238;
     color: white;
-    justify-content: center;
     flex-direction: row;
     width: 100%;
-    padding: 64px 165px;
+    padding: 64px 0px;
     gap: 125px;
 }
 .f2-left{
