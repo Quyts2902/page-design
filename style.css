@@ -22,7 +22,7 @@ img{
     flex-direction: row;
     height: 84px;
     width: 100%;
-    max-width: 1440px;
+    min-width: 1200px;
 }
 .head-container{
     width: 100%;
@@ -37,6 +37,7 @@ img{
     height: 24px;
     justify-content: center;
     align-items: center;
+    width: 154.49px;
 }
 .logo-img1{
     width: 35px;
@@ -103,7 +104,7 @@ img{
 .section-1{
     display: flex;
     width: 100%;
-    max-width: 1440px;
+    min-width: 1200px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -132,7 +133,7 @@ img{
     gap: 16px;
 }
 .s1-text-title{
-    color: #18191F;
+    color: #4D4D4D;
     font-weight: 600;
     font-size: 64px;
     line-height: 76px;
@@ -149,7 +150,8 @@ img{
 }
 .s1-box-button{
     padding: 14px 32px;
-    max-width: 128px;
+    width: 128px;
+    height: 52px;
     border-radius: 4px;
     background-color: #4CAF4F;
     color: #FFFFFF;
@@ -170,6 +172,7 @@ img{
 
 .section-1-container-2{
     width: 100%;
+    height: 190px;
     padding: 0px 144px;
     display: flex;
     flex-direction: column;
@@ -256,7 +259,6 @@ img{
     align-items: center;
     gap: 8px;
     height: 120px;
-    width: 542px;
 }
 .c3-h-title{
     display: flex;
@@ -266,6 +268,7 @@ img{
     font-size: 36px;
     line-height: 44px;
     color: #4D4D4D;
+    width: 542px;
 }
 .c3-h-text{
     height: 24px;
@@ -273,6 +276,7 @@ img{
     font-size: 16px;
     line-height: 24px;
     color: #717171;
+    text-align: center;
 }
 .s1-c3-body{
     display: flex;
@@ -283,17 +287,17 @@ img{
     gap: 127.5px;
 }
 .c3-box-1{
-    height: 212px;
+    height: 260px;
     color: #FFFFFF;
     border-radius: 8px;
-    box-shadow: #ABBED133 0px 2px 4px;
-    padding: 24px 16px;
+    box-shadow: 0px 2px 4px 0px #ABBED1;
+    padding: 24px 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 8px;
-    
+    width: 299px;
 }
 .c3-box-title{
     display: flex;
@@ -314,6 +318,7 @@ img{
     font-size: 28px;
     line-height: 36px;
     width: 267px;
+    height: 72px;
     text-align: center;
 }
 .c3-box-text1{
@@ -325,30 +330,31 @@ img{
     font-size: 14px;
     line-height: 20px;
     color: #717171;
+    width: 251px;
 }
 .c3-box-2{
-    height: 232px;
+    height: 280px;
     color: #FFFFFF;
     border-radius: 8px;
-    box-shadow: #ABBED133 0px 2px 4px;
-    padding: 24px 16px;
+    box-shadow: 0px 2px 4px 0px #ABBED1;
+    padding: 24px 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 8px;
+    width: 299px;
 }
 .c3-box-text2{
     display: flex;
     text-align: center;
-    height: 60px;
+    height: 80px;
     width: 240px;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #717171;
 }
-
 .c3-title1{
     color: #4D4D4D;
     font-weight: 700;
@@ -357,15 +363,16 @@ img{
     width: 231px;
     text-align: center;
     display: flex;
+    height: 72px;
 }
 
 .section-2{
     display: flex;
     flex-direction: column;
     gap: 48px;
-    margin-bottom: 150.6px;
+    margin-bottom: 94.6px;
     width: 100%;
-    max-width: 1440px;
+    min-width: 1200px;
 }
 .section-2-container-1{
     width: 100%;
@@ -398,6 +405,7 @@ img{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    width: 601px;
 }
 .s2-content-title{
     height: 88px;
@@ -405,7 +413,7 @@ img{
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    width: 601px;
+    width: 590px;
 }
 .s2-content-infor{
     color: #717171;
@@ -423,6 +431,7 @@ img{
     font-size: 16px;
     line-height: 24px;
     border-radius: 4px;
+    height: 52px;
 }
 
 .section-2-container-2{
@@ -457,12 +466,16 @@ img{
 .s2-c2-right{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 40px;
+    width: 540px;
+    height: 40px;
 }
 .s2-r-box{
     display: flex;
     flex-direction: row;
     height: 60px;
+    width: 540px;
     gap: 30px;
 }
 .s2-r-content{
@@ -646,23 +659,41 @@ img{
     justify-content: center;
     align-items: center;
 }
+.logo1{
+    width: 48px;
+    height: 48px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
 .brand1{
     width: 40px;
     height: 40px;
 }
 .s2-c4-label{
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    height: 44px;
-    font-size: 20px;
+    justify-content: left;
+    padding: 8px 0 8px 8px;
+    gap: 8px;
+}
+.label-text{
     font-weight: 600;
-    line-height: 28px;
+    font-size: 20px;
     line-height: 28px;
     color: #4CAF4F;
 }
-
+.label-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    right: 24px;
+}
+.arrow{
+    width: 14.59px;
+    right: 8px;
+}
 .section-2-container-5{
     display: flex;
     flex-direction: column;
@@ -742,10 +773,7 @@ img{
     align-items: center;
     justify-content: center;
     padding: 8px 0 8px 8px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-    color: #4CAF4F;
+    gap: 8px;
 }
 
 footer{
@@ -754,7 +782,7 @@ footer{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    max-width: 1440px;
+    min-width: 1200px;
 }
 .footer-1{
     display: flex;
@@ -780,17 +808,38 @@ footer{
     height: 152px;
 }
 .f1-button{
-    display: flex;
-    flex-direction: row;
     padding: 14px 32px;
     background-color: #4CAF4F;
-    color: #fff;
     border-radius: 4px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    border: 0px;
+    color: white;
+    gap: 8px;
+    display: flex;
     width: 178px;
     height: 52px;
+    justify-content: center;
+    align-items: center;
+}
+.button-text{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.button-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+}
+.arrow2{
+    height: 6px;
+    width: 11.44px;
 }
 
 .footer-2{
@@ -798,16 +847,18 @@ footer{
     justify-content: center;
     align-items: center;
     height: 328px;
-    background-color: #263238;
+    background-color: black;
     color: white;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     width: 100%;
     padding: 64px 165px;
+    gap: 125px;
 }
 .f2-left{
     display: flex;
     height: 189.67px;
+    width: 350px;
     justify-content: space-between;
     flex-direction: column;
     gap: 40px;
@@ -823,22 +874,24 @@ footer{
 }
 .f-logo-1{
     width: 43.27px;
-    height: 29.67;
+    height: 29.67px;
 }
 .f-logo-2{
-    width: 137.84;
-    height: 25.54;
+    width: 137.84px;
+    height: 25.54px;
 }
 .f2-left-infor{
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 350px;
 }
-.f2-l-text-1{
+.f2-l-text{
     color: #f5f7fa;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
+    width: 350px;
 }
 .f2-left-icon{
     display: flex;
@@ -863,7 +916,8 @@ footer{
     display: flex;
     gap: 24px;
     flex-direction: column;
-    width: 200px;
+    width: 160px;
+    height: 200px;
 }
 .f2-r-title{
     font-weight: 600;
@@ -877,13 +931,21 @@ footer{
     flex-direction: column;
 }
 .f2-r-text{
-    color: #D9DBE1;
+    color: #F5F7FA;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
 }
+.f2-right-content1{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    width: 255px;
+    height: 92px;
+}
 .f2-r-mail{
     height: 40px;
+    width: 255px;
     background-color: #515B60;
     border-radius: 8px;
     display: flex;
@@ -896,6 +958,7 @@ footer{
     font-size: 14px;
     line-height: 20px;
     color: #D9DBE1;
+    text-align: center;
 }
 .send{
     width: 18px;
